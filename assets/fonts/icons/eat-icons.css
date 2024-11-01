@@ -1,0 +1,129 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 12/03/2018 15:22
+  	*/
+
+@font-face {
+  font-family: "smrcicon";
+  src: url("./eat-icons.eot");
+  src: url("./eat-icons.eot?#iefix") format("embedded-opentype"),
+       url("./eat-icons.woff") format("woff"),
+       url("./eat-icons.ttf") format("truetype"),
+       url("./eat-icons.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "smrcicon";
+    src: url("./eat-icons.svg#smrcicon") format("svg");
+  }
+}
+
+[class^="smrcicon"]:before, [class*=" smrcicon"]:before,
+[class^="smrcicon"]:after, [class*=" smrcicon"]:after {   
+    font-family: smrcicon;
+    font-style: normal;
+}
+
+.smrcicon001-ham:before { content: "\f100"; }
+.smrcicon002-salami:before { content: "\f101"; }
+.smrcicon003-cubes:before { content: "\f102"; }
+.smrcicon004-hot-cup-of-tea:before { content: "\f103"; }
+.smrcicon005-hot-soup:before { content: "\f104"; }
+.smrcicon006-fruits-on-branch:before { content: "\f105"; }
+.smrcicon007-strawberry:before { content: "\f106"; }
+.smrcicon008-slice-of-bread:before { content: "\f107"; }
+.smrcicon009-electric-mixer:before { content: "\f108"; }
+.smrcicon010-pinecone:before { content: "\f109"; }
+.smrcicon011-lollipop-candy:before { content: "\f10a"; }
+.smrcicon012-corn-snacks:before { content: "\f10b"; }
+.smrcicon013-sausage-and-fork:before { content: "\f10c"; }
+.smrcicon014-candy:before { content: "\f10d"; }
+.smrcicon015-soft-drink-in-paper-cup-with-drinking-straw:before { content: "\f10e"; }
+.smrcicon016-cutlery:before { content: "\f10f"; }
+.smrcicon017-pepper:before { content: "\f110"; }
+.smrcicon018-pear:before { content: "\f111"; }
+.smrcicon019-cheese-grater:before { content: "\f112"; }
+.smrcicon020-corncob:before { content: "\f113"; }
+.smrcicon021-restaurant-tray:before { content: "\f114"; }
+.smrcicon022-crossed-knife-and-fork:before { content: "\f115"; }
+.smrcicon023-bag-of-sugar:before { content: "\f116"; }
+.smrcicon024-croissant-outline:before { content: "\f117"; }
+.smrcicon025-mexican-taco:before { content: "\f118"; }
+.smrcicon026-broccoli-outline:before { content: "\f119"; }
+.smrcicon027-pair-of-bottles:before { content: "\f11a"; }
+.smrcicon028-hot-pepper-outline:before { content: "\f11b"; }
+.smrcicon029-mushroom-outline:before { content: "\f11c"; }
+.smrcicon030-loaf-of-bread:before { content: "\f11d"; }
+.smrcicon031-boiled-egg-on-cup:before { content: "\f11e"; }
+.smrcicon032-meat-steak:before { content: "\f11f"; }
+.smrcicon033-bowl-of-food:before { content: "\f120"; }
+.smrcicon034-rolling-pin:before { content: "\f121"; }
+.smrcicon035-fish:before { content: "\f122"; }
+.smrcicon036-coffee-beans:before { content: "\f123"; }
+.smrcicon037-carrot:before { content: "\f124"; }
+.smrcicon038-corn-dog:before { content: "\f125"; }
+.smrcicon039-ice-cream-cone-with-three-scoops:before { content: "\f126"; }
+.smrcicon040-garlic:before { content: "\f127"; }
+.smrcicon041-knife-fork-and-plate:before { content: "\f128"; }
+.smrcicon042-jar-for-measuring-liquids:before { content: "\f129"; }
+.smrcicon043-pumpkin:before { content: "\f12a"; }
+.smrcicon044-soup-ladle:before { content: "\f12b"; }
+.smrcicon045-piece-of-cake-with-berries-1:before { content: "\f12c"; }
+.smrcicon046-spatula:before { content: "\f12d"; }
+.smrcicon047-onion:before { content: "\f12e"; }
+.smrcicon048-empty-plate:before { content: "\f12f"; }
+.smrcicon049-slice-of-pizza:before { content: "\f130"; }
+.smrcicon050-piece-of-cheese:before { content: "\f131"; }
+.smrcicon051-toque:before { content: "\f132"; }
+.smrcicon052-smoking-barbecue:before { content: "\f133"; }
+.smrcicon053-muffin:before { content: "\f134"; }
+.smrcicon054-bowl-of-white-rice:before { content: "\f135"; }
+.smrcicon055-slice-of-melon:before { content: "\f136"; }
+.smrcicon056-cocktail-glass:before { content: "\f137"; }
+.smrcicon057-bowl-of-noodles:before { content: "\f138"; }
+.smrcicon058-baked-bun:before { content: "\f139"; }
+.smrcicon059-round-bread:before { content: "\f13a"; }
+.smrcicon060-mincer:before { content: "\f13b"; }
+.smrcicon061-piece-of-cake-with-berries:before { content: "\f13c"; }
+.smrcicon062-cardboard-box-with-chopsticks:before { content: "\f13d"; }
+.smrcicon063-plastic-coffee-cup:before { content: "\f13e"; }
+.smrcicon064-pomegranate:before { content: "\f13f"; }
+.smrcicon065-prawn:before { content: "\f140"; }
+.smrcicon066-fried-egg:before { content: "\f141"; }
+.smrcicon067-glass-of-alcoholic-beverage:before { content: "\f142"; }
+.smrcicon068-aubergine:before { content: "\f143"; }
+.smrcicon069-hot-dog:before { content: "\f144"; }
+.smrcicon070-lemon:before { content: "\f145"; }
+.smrcicon071-tomato:before { content: "\f146"; }
+.smrcicon072-soft-drink-with-straw:before { content: "\f147"; }
+.smrcicon073-wedding-cake:before { content: "\f148"; }
+.smrcicon074-kitchen-scale:before { content: "\f149"; }
+.smrcicon075-jar-of-jam:before { content: "\f14a"; }
+.smrcicon076-juice:before { content: "\f14b"; }
+.smrcicon077-bunch-of-grapes:before { content: "\f14c"; }
+.smrcicon078-coffee-maker-with-coffee-cup:before { content: "\f14d"; }
+.smrcicon079-tea-bag:before { content: "\f14e"; }
+.smrcicon080-pair-of-bananas:before { content: "\f14f"; }
+.smrcicon081-bell-covering-hot-dish:before { content: "\f150"; }
+.smrcicon082-nachos-and-dish:before { content: "\f151"; }
+.smrcicon083-filled-glass:before { content: "\f152"; }
+.smrcicon084-meat-pie:before { content: "\f153"; }
+.smrcicon085-cherries:before { content: "\f154"; }
+.smrcicon086-slice-of-watermelon:before { content: "\f155"; }
+.smrcicon087-eggs:before { content: "\f156"; }
+.smrcicon088-ice-cream-with-topping:before { content: "\f157"; }
+.smrcicon089-roast-chicken:before { content: "\f158"; }
+.smrcicon090-rice-bowl:before { content: "\f159"; }
+.smrcicon091-oven-mitt:before { content: "\f15a"; }
+.smrcicon092-cart-wheel:before { content: "\f15b"; }
+.smrcicon093-ear-of-wheat:before { content: "\f15c"; }
+.smrcicon094-pasta-serving:before { content: "\f15d"; }
+.smrcicon095-skewer:before { content: "\f15e"; }
+.smrcicon096-chicken-leg:before { content: "\f15f"; }
+.smrcicon097-glass-of-drink:before { content: "\f160"; }
+.smrcicon098-jar-of-beer:before { content: "\f161"; }
+.smrcicon099-bowl-with-chopsticks:before { content: "\f162"; }
+.smrcicon100-wine-glass:before { content: "\f163"; }

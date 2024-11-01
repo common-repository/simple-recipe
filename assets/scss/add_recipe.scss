@@ -1,0 +1,128 @@
+.smrc_add_recipe {
+	margin: 0 0 50px;
+
+	.wp-switch-editor {
+		background-color: #f1f1f1;
+		text-decoration: none !important;
+	}
+
+	.mce-container {
+		.mce-btn.mce-listbox {
+			box-shadow: none;
+			border: 0;
+			margin: 4px;
+		}
+
+		.mce-widget {
+			button {
+				background-color: #eee;
+				border: 1px solid #aaa;
+			}
+		}
+	}
+}
+
+.smrc_login_register {
+	.smrc_login_register__login_switch {
+		text-align: right;
+	}
+}
+
+.smrc_add_recipe__main_categories {
+	.smrc_add_recipe__main_category {
+		display: inline-block;
+		padding: 3px 8px;
+		margin: 0 15px 15px 0;
+		background-color: #f1f1f1;
+		font-size: 15px;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+		cursor: pointer;
+		transition: .3s ease;
+
+		&:after {
+			content: '○';
+			display: inline-block;
+			vertical-align: top;
+			width: 15px;
+			margin-left: 10px;
+		}
+
+		&.added {
+			background-color: #478013;
+			color: #fff;
+
+			&:after {
+				content: '✔';
+			}
+		}
+	}
+}
+
+.smrc_add_recipe__steps,
+.smrc_add_recipe__ingredients {
+	.smrc_add_recipe__step,
+	.smrc_add_recipe__ingredient {
+		position: relative;
+		padding-right: 30px;
+		margin: 0 0 15px;
+
+		.smrc_row {
+			display: flex;
+			align-items: center;
+		}
+
+		> .lnricons-cross {
+			position: absolute;
+			right: 0;
+			top: 50%;
+			padding: 5px;
+			margin-top: -10px;
+			background-color: red;
+			color: #fff;
+			border-radius: 50%;
+			font-size: 14px;
+			cursor: pointer;
+		}
+	}
+}
+
+.smrc_add_recipe__steps {
+	background-color: #f1f1f1;
+	padding: 30px;
+
+	.smrc_add_recipe__step {
+		border-bottom: 1px solid #aaa;
+		padding-bottom: 30px;
+		margin-bottom: 30px;
+
+		&:last-child {
+			border-bottom: 0;
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+
+		.smrc_row {
+			display: flex;
+			align-items: flex-start;
+		}
+	}
+}
+
+.smrc_add_recipe__image {
+	&_uploaded {
+		display: inline-block;
+		position: relative;
+
+		i.lnricons-cross {
+			position: absolute;
+			top: 5px;
+			right: -30px;
+			padding: 5px;
+			font-size: 15px;
+			background-color: white;
+			box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+			border-radius: 50%;
+			cursor: pointer;
+		}
+	}
+}

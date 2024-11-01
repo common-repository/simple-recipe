@@ -1,0 +1,131 @@
+.smrc_filter_field__autocomplete {
+	&_choices {
+		position: relative;
+
+		&:after {
+			position: absolute;
+			top: 50%;
+			right: 10px;
+			font-size: 24px;
+			margin-top: -12px;
+			content: "\e8d0";
+			font-family: 'Linearicons' !important;
+			speak: none;
+			font-style: normal;
+			font-weight: normal;
+			font-variant: normal;
+			text-transform: none;
+			line-height: 1;
+			font-feature-settings: "liga";
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+
+			opacity: 0;
+			visibility: hidden;
+
+			animation: rotating 2s linear infinite;
+		}
+
+		input {
+			padding-right: 45px;
+		}
+
+		&.loading {
+			&:after {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+
+	&_suggestions {
+		position: absolute;
+		padding: 10px 0;
+		top: 100%;
+		left: 0;
+		right: 0;
+		background-color: #fff;
+		box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+		z-index: 99;
+	}
+
+	&_suggestion {
+		padding: 5px 30px;
+		cursor: pointer;
+
+		&:hover {
+			background-color: #f1f1f1;
+		}
+	}
+
+	.selected_labels {
+		margin: 15px 0 30px;
+	}
+
+	.selected_label {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		height: 25px;
+		padding: 3px 35px 3px 10px;
+		margin: 0 10px 10px 0;
+		font-size: 12px;
+		text-transform: uppercase;
+		line-height: 19px;
+		background-color: #fff;
+		border-radius: 25px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		i.delete {
+			position: absolute;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			width: 25px;
+			display: block;
+			background-color: #cd2653;
+			color: #fff;
+			cursor: pointer;
+			font-style: normal;
+			font-size: 11px;
+			text-align: center;
+			line-height: 25px;
+			border-radius: 50%;
+			font-weight: 700;
+		}
+	}
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */
+{
+	from {
+		-webkit-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes rotating {
+	from {
+		-ms-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	to {
+		-ms-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}

@@ -1,0 +1,42 @@
+#smrc_add_recipe {
+	.btn {
+		background-color: #0A246A;
+		color: #fff;
+		border-radius: 5px;
+
+		&-small {
+			padding: 5px 10px;
+			font-size: 15px;
+		}
+
+		&-simple {
+			background-color: #e4b267;
+		}
+	}
+}
+
+.smrc_pagination {
+	display: flex;
+
+	&__single {
+		display: block;
+		width: 35px;
+		height: 35px;
+		margin-right: 10px;
+		line-height: 31px;
+		font-size: 14px;
+		text-align: center;
+		background-color: #fff;
+		border: 2px solid #fff;
+		text-decoration: none;
+		font-weight: 700;
+		transition: .3s ease;
+
+		&.current,
+		&:hover {
+			border-color: #0A246A;
+			background-color: #0A246A;
+			color: #fff;
+		}
+	}
+}

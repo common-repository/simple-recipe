@@ -1,0 +1,481 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Recipe\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-18 09:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.3; wp-5.3.2"
+
+#: includes/post.types.php:67 includes/post.types.php:72
+#, php-format
+msgctxt " name"
+msgid "%s"
+msgstr ""
+
+#: includes/fields.php:126
+msgid "Add comma-separated types of ingredients. e.g. gram,tablespoon,ounce"
+msgstr ""
+
+#: add_recipe/add_recipe.php:73
+msgid "Add Ingredient"
+msgstr ""
+
+#: includes/post.types.php:68
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/taxonomies.php:14
+msgid "Add New category"
+msgstr ""
+
+#: includes/taxonomies.php:31
+msgid "Add New Ingredient"
+msgstr ""
+
+#: smrc_templates/add_recipe/main.php:33
+msgid "Add recipe"
+msgstr ""
+
+#: includes/fields.php:109
+msgid "Add recipe page"
+msgstr ""
+
+#: add_recipe/add_recipe.php:75
+msgid "Add Step"
+msgstr ""
+
+#: includes/taxonomies.php:11
+msgid "All categories"
+msgstr ""
+
+#: includes/taxonomies.php:28
+msgid "All Ingredients"
+msgstr ""
+
+#: includes/fields.php:38
+msgid "Calories"
+msgstr ""
+
+#: add_recipe/add_recipe.php:52
+msgid "Cancel"
+msgstr ""
+
+#: includes/fields.php:46
+msgid "Carbohydrates (percent)"
+msgstr ""
+
+#: add_recipe/add_recipe.php:65 includes/fields.php:29
+msgid "Cooking difficulty"
+msgstr ""
+
+#: includes/fields.php:21 smrc_templates/single/info.php:20
+msgid "Cooking time"
+msgstr ""
+
+#: add_recipe/add_recipe.php:92
+msgid "cup"
+msgstr ""
+
+#: add_recipe/add_recipe.php:78
+msgid "Description"
+msgstr ""
+
+#: smrc_templates/single/info.php:29
+msgid "Difficulty"
+msgstr ""
+
+#: add_recipe/add_recipe.php:62
+msgid "Dish Info"
+msgstr ""
+
+#: add_recipe/add_recipe.php:57
+msgid "Do you really want to delete image?"
+msgstr ""
+
+#: add_recipe/add_recipe.php:83 includes/fields.php:31
+msgid "Easy"
+msgstr ""
+
+#: includes/post.types.php:70
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/taxonomies.php:12
+msgid "Edit category"
+msgstr ""
+
+#: includes/taxonomies.php:29
+msgid "Edit Ingredient"
+msgstr ""
+
+#: my_account/my_account.php:41
+msgid "Edit recipe"
+msgstr ""
+
+#: add_recipe/add_recipe.php:68
+msgid "Enter calories (kcal)"
+msgstr ""
+
+#: add_recipe/add_recipe.php:70
+msgid "Enter Carbohydrates (%)"
+msgstr ""
+
+#: add_recipe/add_recipe.php:66
+msgid "Enter cooking time (minutes)"
+msgstr ""
+
+#: add_recipe/add_recipe.php:47
+msgid "Enter email"
+msgstr ""
+
+#: add_recipe/add_recipe.php:69
+msgid "Enter fat percent (%)"
+msgstr ""
+
+#: add_recipe/add_recipe.php:44
+msgid "Enter last name"
+msgstr ""
+
+#: add_recipe/add_recipe.php:42
+msgid "Enter login"
+msgstr ""
+
+#: add_recipe/add_recipe.php:43
+msgid "Enter name"
+msgstr ""
+
+#: add_recipe/add_recipe.php:45
+msgid "Enter password"
+msgstr ""
+
+#: add_recipe/add_recipe.php:46
+msgid "Enter password again"
+msgstr ""
+
+#: add_recipe/add_recipe.php:71
+msgid "Enter Protein (%)"
+msgstr ""
+
+#: add_recipe/add_recipe.php:63
+msgid "Enter recipe name"
+msgstr ""
+
+#: add_recipe/add_recipe.php:67
+msgid "Enter servings (number of persons)"
+msgstr ""
+
+#: add_recipe/add_recipe.php:72
+msgid "Enter Youtube Embed link"
+msgstr ""
+
+#: includes/fields.php:42
+msgid "Fat (percent)"
+msgstr ""
+
+#: add_recipe/add_recipe.php:85 includes/fields.php:33
+msgid "Hard"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://simple-recepie.com/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://simple-recepie.com/author/"
+msgstr ""
+
+#: includes/taxonomies.php:26
+msgid "Ingredient"
+msgstr ""
+
+#: add_recipe/add_recipe.php:76
+msgid "Ingredient name"
+msgstr ""
+
+#: add_recipe/add_recipe.php:61 includes/taxonomies.php:25
+#: includes/taxonomies.php:33 smrc_templates/single/ingredients.php:10
+#: smrc_templates/single/ingredients.php:31
+msgid "Ingredients"
+msgstr ""
+
+#: includes/helpers.php:224
+msgid "Invaild image extension. Load only .jpg, .jpeg and .png"
+msgstr ""
+
+#: add_recipe/add_recipe.php:56
+msgid "Loading image..."
+msgstr ""
+
+#: add_recipe/add_recipe.php:59
+msgid "Loading..."
+msgstr ""
+
+#: add_recipe/add_recipe.php:49
+msgid "Logged in as:"
+msgstr ""
+
+#: add_recipe/add_recipe.php:41 add_recipe/add_recipe.php:48
+msgid "Login"
+msgstr ""
+
+#: add_recipe/add_recipe.php:84 includes/fields.php:32
+msgid "Medium"
+msgstr ""
+
+#: smrc_templates/single/info.php:22
+msgid "min"
+msgstr ""
+
+#: includes/fields.php:115
+msgid "My account page"
+msgstr ""
+
+#: includes/post.types.php:69
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/taxonomies.php:15
+msgid "New Category"
+msgstr ""
+
+#: includes/taxonomies.php:32
+msgid "New Ingredient"
+msgstr ""
+
+#: includes/post.types.php:76
+#, php-format
+msgid "No %s found in Trash."
+msgstr ""
+
+#: includes/post.types.php:75
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: smrc_templates/single/ingredients.php:38
+msgid "Nutrition"
+msgstr ""
+
+#: add_recipe/add_recipe.php:54
+msgid "Only logged in users can add recipe"
+msgstr ""
+
+#: add_recipe/add_recipe.php:91
+msgid "ounce"
+msgstr ""
+
+#: includes/post.types.php:74
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: includes/helpers.php:167
+msgid "Passwords do not match"
+msgstr ""
+
+#: add_recipe/add_recipe.php:88
+msgid "pieces"
+msgstr ""
+
+#: includes/helpers.php:211
+msgid "Please add image"
+msgstr ""
+
+#: add_recipe/add_recipe.php:53
+msgid "Please, fill all fields"
+msgstr ""
+
+#: includes/post.types.php:65
+#, php-format
+msgctxt "post type singular name"
+msgid "%s"
+msgstr ""
+
+#: includes/fields.php:50
+msgid "Protein (percent)"
+msgstr ""
+
+#: add_recipe/add_recipe.php:77
+msgid "Quantity"
+msgstr ""
+
+#: smrc_templates/single/rating_form.php:16
+msgid "Rate"
+msgstr ""
+
+#: smrc_templates/single/rating_form.php:8
+msgid "Rate recipe"
+msgstr ""
+
+#: includes/post.types.php:39
+msgid "Recipe"
+msgstr ""
+
+#: includes/taxonomies.php:9
+msgid "Recipe category"
+msgstr ""
+
+#: includes/fields.php:6 includes/fields.php:17
+msgid "Recipe info"
+msgstr ""
+
+#: includes/post.types.php:40
+msgid "Recipes"
+msgstr ""
+
+#: includes/taxonomies.php:8 includes/taxonomies.php:16
+msgid "Recipes Categories"
+msgstr ""
+
+#: add_recipe/add_recipe.php:51
+msgid "Register"
+msgstr ""
+
+#: add_recipe/add_recipe.php:50
+msgid "Registration"
+msgstr ""
+
+#: smrc_templates/single/related.php:26
+msgid "Related recipes"
+msgstr ""
+
+#: add_recipe/add_recipe.php:58
+msgid "Save recipe"
+msgstr ""
+
+#: includes/post.types.php:73
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: includes/taxonomies.php:27
+msgid "Search Ingredient"
+msgstr ""
+
+#: includes/taxonomies.php:10
+msgid "Search recipe category"
+msgstr ""
+
+#: includes/fields.php:111
+msgid ""
+"Select \"Add recipe\" page and put in content the shortcode "
+"[smrc_add_recipe_page]"
+msgstr ""
+
+#: add_recipe/add_recipe.php:64
+msgid "Select categories"
+msgstr ""
+
+#: includes/fields.php:25 smrc_templates/single/info.php:11
+msgid "Servings"
+msgstr ""
+
+#. Description of the plugin
+msgid "Share and Use your favourite recipes with all peoples around the world!"
+msgstr ""
+
+#. Name of the plugin
+#: includes/fields.php:98
+msgid "Simple Recipe"
+msgstr ""
+
+#: widgets/smrc_filter/main.php:7
+msgid "Simple Recipe Filter widget"
+msgstr ""
+
+#: includes/fields.php:97
+msgid "Simple Recipe Settings"
+msgstr ""
+
+#. Author of the plugin
+msgid "Simple Recipes"
+msgstr ""
+
+#: add_recipe/add_recipe.php:81
+msgid "Step content"
+msgstr ""
+
+#: add_recipe/add_recipe.php:80
+msgid "Step image"
+msgstr ""
+
+#: add_recipe/add_recipe.php:74
+msgid "Steps"
+msgstr ""
+
+#: includes/fields.php:105
+msgid "Tab 1"
+msgstr ""
+
+#: add_recipe/add_recipe.php:89
+msgid "tablespoon"
+msgstr ""
+
+#: add_recipe/add_recipe.php:90
+msgid "teaspoon"
+msgstr ""
+
+#: smrc_templates/single/ingredients.php:41
+msgid "Total calories"
+msgstr ""
+
+#: smrc_templates/single/ingredients.php:53
+msgid "Total carbohydrates"
+msgstr ""
+
+#: smrc_templates/single/ingredients.php:47
+msgid "Total fat"
+msgstr ""
+
+#: smrc_templates/single/ingredients.php:59
+msgid "Total protein"
+msgstr ""
+
+#: includes/fields.php:125
+msgid "Types of ingredients"
+msgstr ""
+
+#: includes/taxonomies.php:13
+msgid "Update category"
+msgstr ""
+
+#: includes/taxonomies.php:30
+msgid "Update Ingredient"
+msgstr ""
+
+#: smrc_templates/add_recipe/main.php:31
+msgid "Update recipe"
+msgstr ""
+
+#: add_recipe/add_recipe.php:55
+msgid "Upload Image"
+msgstr ""
+
+#: includes/fields.php:121
+msgid "Users must be logged in to rate recipe"
+msgstr ""
+
+#: includes/post.types.php:71
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: add_recipe/add_recipe.php:79
+msgid "You must be logged in to add recipe"
+msgstr ""
+
+#: includes/fields.php:54
+msgid "Youtube embed link"
+msgstr ""
